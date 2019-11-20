@@ -41,6 +41,7 @@ export default (signedIn = false) =>
                       marginLeft: 20,
                     },
                   },
+                  headerLayoutPreset: 'center',
                 }
               ),
               navigationOptions: {
@@ -58,6 +59,7 @@ export default (signedIn = false) =>
             Profile,
           },
           {
+            resetOnBlur: true,
             tabBarOptions: {
               keyboardHidesTabBar: true,
               activeTintColor: '#fff',
